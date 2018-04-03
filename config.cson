@@ -1,0 +1,121 @@
+"*":
+  "atom-beautify":
+    css:
+      align_assignments: true
+      beautify_on_save: true
+      convert_quotes: "double"
+      default_beautifier: "Pretty Diff"
+      end_with_newline: true
+      indent_size: 2
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_inner_html: true
+      indent_size: 2
+      wrap_attributes_indent_size: 2
+    js:
+      end_with_newline: true
+      indent_with_tabs: true
+      space_after_anon_function: true
+    json:
+      beautify_on_save: true
+      indent_size: 2
+      indent_with_tabs: true
+    jsx:
+      beautify_on_save: true
+      brace_style: "collapse-preserve-inline"
+      default_beautifier: "JS Beautify"
+      disabled: true
+      end_with_newline: true
+      indent_size: 2
+      indent_with_tabs: true
+      wrap_line_length: 200
+    typescript:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_size: 2
+      indent_with_tabs: true
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "wrap-guide"
+      "welcome"
+      "update-package-dependencies"
+      "timecop"
+      "package-generator"
+      "open-on-github"
+      "github"
+      "git-diff"
+      "background-tips"
+      "autocomplete-atom-api"
+      "about"
+      "merge-conflicts"
+      "git-time-machine"
+      "atom-beautify"
+      "atom-typescript"
+      "bookmarks"
+      "styleguide"
+      "language-sql"
+      "language-source"
+      "language-ruby-on-rails"
+      "language-ruby"
+      "language-python"
+      "language-property-list"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-java"
+      "language-go"
+      "language-make"
+      "language-csharp"
+      "language-coffee-script"
+      "language-clojure"
+      "language-c"
+      "language-toml"
+      "autoflow"
+      "linter-flow"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/Victor/Workspace"
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "monokai-seti"
+    ]
+  docblockr: {}
+  editor:
+    atomicSoftTabs: false
+    softTabs: false
+    tabType: "hard"
+  "exception-reporting":
+    userId: "7844772e-3a8d-2ce9-e05a-663adaae4859"
+  "linter-eslint":
+    advancedLocalNodeModules: "/node_modules"
+  "linter-flow":
+    executablePath: "./node_modules/.bin/flow"
+  "markdown-preview": {}
+  minimap:
+    absoluteMode: true
+    adjustAbsoluteModeHeight: true
+    displayCodeHighlights: false
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      showInStatusBar: true
+    prettierOptions:
+      jsxBracketSameLine: true
+      parser: "flow"
+      printWidth: 150
+      singleQuote: true
+      tabWidth: 2
+      useTabs: true
+    useEslint: true
+  react:
+    enabledForAllJavascriptFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace: {}
