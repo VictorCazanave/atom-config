@@ -30,3 +30,7 @@ My configuration of [Atom](https://atom.io).
 * prettier-atom
 * seti-ui
 * todo-show
+
+## Config
+
+Local directory: ~/.atom
